@@ -1,0 +1,41 @@
+.titulo{
+    background-color: green;
+}
+
+.nombre{
+    color: white;
+    font-size: 2cm;
+}
+
+.gato1{
+    display: grid;
+    background-image: url("ojogatobien.PNG");
+    width: 700px;
+    height: 300px;
+    grid-template-rows: 70% 1fr;
+    grid-template-columns: 40% 1fr;
+}
+
+.letra1{
+    font-size: 1cm;
+    color: white;
+}
+
+.loro1{
+    background-image: url(ojoloro.PNG);
+    width: 700px;
+    height: 300px;
+}
+
+.perro1{
+    background-image: url(ojoperro.PNG);
+    width: 700px;
+    height: 300px;
+}
+
+.gato2{
+    background-image: url(cat-778315_1920.jpg);
+    display: grid;
+    grid-template-rows: repeat(fr,10);
+    grid-template-columns: repeat(fr,3);
+}
