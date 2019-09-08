@@ -8,12 +8,12 @@
 }
 
 .gato1{
-    display: grid;
-    background-image: url("ojogatobien.PNG");
+    background-image: url("../images/ojogatobien.PNG");
     width: 700px;
     height: 300px;
     grid-template-rows: 70% 1fr;
     grid-template-columns: 40% 1fr;
+    display: grid;
 }
 
 .letra1{
@@ -21,21 +21,194 @@
     color: white;
 }
 
+.letra2{
+    font-size: 2cm;
+    color:white;
+}
+
 .loro1{
-    background-image: url(ojoloro.PNG);
+    background-image: url("../images/ojoloro.PNG");
     width: 700px;
     height: 300px;
+    grid-template-rows: 70% 1fr;
+    grid-template-columns: 40% 1fr;
+    display: grid;
 }
 
 .perro1{
-    background-image: url(ojoperro.PNG);
+    background-image: url("../images/ojoperro.PNG");
     width: 700px;
     height: 300px;
+    grid-template-rows: 70% 1fr;
+    grid-template-columns: 40% 1fr;
+    display: grid;
+}
+
+.bosque{
+    background-image: url("../images/wood-1350175_1920.jpg");
 }
 
 .gato2{
-    background-image: url(cat-778315_1920.jpg);
+    background-image: url("../images/cat-778315_1920.jpg");
     display: grid;
-    grid-template-rows: repeat(fr,10);
-    grid-template-columns: repeat(fr,3);
+    grid-template-rows: repeat(10,fr);
+    grid-template-columns: repeat(2,fr);
+}
+
+.ratonsuperimag{
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.ratonsuperdescr{
+    color: white;
+    grid-row: 1/2;
+    grid-column: 2/3;
+    font-size: 35px;
+    text-align: center;
+}
+
+.ratonultraimag{
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+.ratonultradescr{
+    color: white;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    font-size: 35px;
+    text-align: center;
+}
+
+.ratonrealimag{
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+
+.ratonrealdescr{
+    color: white;
+    grid-row: 3/4;
+    grid-column: 2/3;
+    font-size: 35px;
+    text-align: center;
+}
+
+.lataatunimag{
+    grid-row: 4/5;
+    grid-column: 1/2;
+}
+
+.lataatundescr{
+    color: white;
+    grid-row:4/5;
+    grid-column: 2/3;
+    font-size: 35px;
+    text-align: center;
+}
+
+.atunpremiumimag{
+    grid-row: 5/6;
+    grid-column: 1/2;
+}
+
+.atunpremiumdescr{
+    grid-row:5/6;
+    grid-column: 2/3;
+    color: white;
+    font-size: 35px;
+    text-align: center
+}
+
+.atunatlantisimag{
+    grid-row: 6/7;
+    grid-column: 1/2;
+}
+
+.atunatlantisdescr{
+    grid-row:6/7;
+    grid-column: 2/3;
+    color: white;
+    font-size: 35px;
+    text-align: center
+}
+
+.loro2{
+    display: grid;
+    background-image: url("../images/ara-3601194_1920.jpg");
+    grid-template-rows: repeat(10,fr);
+    grid-template-columns: 1fr 1fr;
+}
+
+.casaestandarimag{
+    grid-row: 1/2;
+    grid-column: 1/2;
+
+}
+
+.casaestandardescr{
+    grid-row: 1/2;
+    grid-column: 2/3;
+    color:white;
+    font-size: 35px;
+    text-align: center;
+}
+
+.casapremiumimag{
+    grid-row:2/3;
+    grid-column: 1/2;
+}
+
+.casapremiumdescr{
+    grid-row:2/3;
+    grid-column: 2/3;
+    color:white;
+    font-size: 35px;
+    text-align: center;
+}
+
+.perro2{
+    display: grid;
+    background-image: url("../images/dog-3735336_1920.jpg");
+    grid-template-rows: repeat(10,fr);
+    grid-template-columns: 1fr 1fr;
+}
+
+.huesoimag{
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.huesodescr{
+    grid-row:1/2;
+    grid-column: 2/3;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+.comidaprroimag{
+    grid-row:2/3;
+    grid-column: 1/2;
+}
+
+.comidaperrodescr{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+.retratoimag{
+    grid-row:3/4;
+    grid-column: 1/2;
+}
+
+.retratodescr{
+    grid-row:3/4;
+    grid-column: 2/3;
+    color: white;
+    font-size: 35px;
+    text-align: center;
 }
